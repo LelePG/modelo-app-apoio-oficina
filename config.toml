@@ -1,7 +1,10 @@
 baseURL = ""
 languageCode = "pt-BR"
 title = "Aplicação com um nome legal"
-theme = "hugo-theme-relearn"
+
+[module]
+[[module.imports]]
+    path = "github.com/McShelby/hugo-theme-relearn"
 
 pluralizelisttitles= false
 
