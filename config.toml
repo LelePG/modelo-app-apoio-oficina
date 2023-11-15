@@ -1,50 +1,39 @@
-baseURL = ""
 languageCode = "pt-BR"
-title = "Aplicação com um nome legal"
 
-[module]
-[[module.imports]]
-    path = "github.com/McShelby/hugo-theme-relearn"
+# Mudar o título da aplicação aqui
+title = "Aplicação com um nome legal"
 
 pluralizelisttitles= false
 
-[[menu.shortcuts]]
+# Atalhos do menu
+[[menu.shortcuts]] # Atualizar a URL para um repositório relevante
 name = "<i class='fab fa-fw fa-github'></i> Repositório"
 identifier = "ds"
-url = "https://github.com/McShelby/hugo-theme-relearn"
+url = "https://github.com/LelePG"
 weight = 10
 
-[[menu.shortcuts]]
-name = "<i class='fab fa-fw fa-brands fa-github-alt'></i> LelePG"
-identifier = "lelepg"
-url = "https://github.com/LelePG"
-weight = 20
-
-
+# Parametros do tema
 [params]
   alwaysopen = false
+  ordersectionsby = "weight"
+  themeVariant = "green" # auto, red, blue,green ou um array como [ "blue", "green" ].
+  collapsibleMenu = true
+  externalLinkTarget = "_blank"
+
   disableSearch = true
   disableSearchHiddenPages = true
   disableSeoHiddenPages = true
   disableTagHiddenPages = true
   disableShortcutsTitle = true
-
-  disableInlineCopyToClipBoard = false
-  disableHoverBlockCopyToClipBoard = false
-
   disableLandingPageButton = true
   disableBreadcrumb = true
   disableTermBreadcrumbs = true
   disableRootBreadcrumb = true
   disableToc = true
-
   disableNextPrev = true
-
-  ordersectionsby = "weight"
-  themeVariant = "green"
-
-  collapsibleMenu = true
-
   disableExplicitIndexURLs = true
 
-  externalLinkTarget = "_blank"
+# Importação do módulo do tema
+[module]
+[[module.imports]]
+    path = "github.com/McShelby/hugo-theme-relearn"
