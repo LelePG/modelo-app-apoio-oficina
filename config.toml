@@ -1,0 +1,47 @@
+baseURL = ""
+languageCode = "pt-BR"
+title = "Aplicação com um nome legal"
+theme = "hugo-theme-relearn"
+
+pluralizelisttitles= false
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> Repositório"
+identifier = "ds"
+url = "https://github.com/McShelby/hugo-theme-relearn"
+weight = 10
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-fw fa-brands fa-github-alt'></i> LelePG"
+identifier = "lelepg"
+url = "https://github.com/LelePG"
+weight = 20
+
+
+[params]
+  alwaysopen = false
+  disableSearch = true
+  disableSearchHiddenPages = true
+  disableSeoHiddenPages = true
+  disableTagHiddenPages = true
+  disableShortcutsTitle = true
+
+  disableInlineCopyToClipBoard = false
+  disableHoverBlockCopyToClipBoard = false
+
+  disableLandingPageButton = true
+  disableBreadcrumb = true
+  disableTermBreadcrumbs = true
+  disableRootBreadcrumb = true
+  disableToc = true
+
+  disableNextPrev = true
+
+  ordersectionsby = "weight"
+  themeVariant = "green"
+
+  collapsibleMenu = true
+
+  disableExplicitIndexURLs = true
+
+  externalLinkTarget = "_blank"

@@ -1,0 +1,20 @@
+          <style>
+           span {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-weight: 300;
+              max-width: 60%;
+              white-space: wrap;
+              font-weight: bolder;
+            }
+            
+            span#R-logo{
+              text-transform: uppercase;
+              color: rgb(234, 234, 234);
+            }
+           
+          </style>
+          <span id="R-logo" href="{{ partial "relLangPrettyUglyURL.hugo" (dict "to" .Site.Home) }}">
+            {{ .Site.Title }}
+          </span>
