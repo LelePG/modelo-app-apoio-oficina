@@ -1,9 +1,10 @@
 languageCode = "pt-BR"
+theme = 'hugo-theme-relearn'
+pluralizelisttitles= false
 
 # Mudar o título da aplicação aqui
 title = "Aplicação com um nome legal"
 
-pluralizelisttitles= false
 
 # Atalhos do menu
 [[menu.shortcuts]] # Atualizar a URL para um repositório relevante
@@ -33,7 +34,3 @@ weight = 10
   disableNextPrev = true
   disableExplicitIndexURLs = true
 
-# Importação do módulo do tema
-[module]
-[[module.imports]]
-    path = "github.com/McShelby/hugo-theme-relearn"

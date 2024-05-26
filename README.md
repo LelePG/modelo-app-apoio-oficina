@@ -1,4 +1,4 @@
-![](./imagens/capa.jpeg)
+![](./imagens/capa.png)
 
 ## 🤔 O que é este projeto?
 
@@ -14,7 +14,7 @@ Para rodar o projeto, basta fazer o download do repositório e rodar o comando `
 
 ### ⚙️ Arquivo de configuração
 
-No arquivo [config.toml](./config.toml) existem várias configurações que podem ser alteradas para modificar o site. Algumas dessas configurações são padrão do Hugo, mas outras são específicas do tema e podem ser consultadas [clicando aqui](https://mcshelby.github.io/hugo-theme-relearn/basics/customization/index.html)
+No arquivo [hugo.toml](./hugo.toml) existem várias configurações que podem ser alteradas para modificar o site. Algumas dessas configurações são padrão do Hugo, mas outras são específicas do tema e podem ser consultadas [clicando aqui](https://mcshelby.github.io/hugo-theme-relearn/basics/customization/index.html)
 
 ### 🖌️ Editando layouts
 
@@ -24,19 +24,19 @@ Para sobrescrever um arquivo de layout definido pelo tema, é possível copiar e
 
 ### 📖 Criando conteúdo
 
-Para criar conteudo basta rodar o comando `hugo new` e o nome do arquivo que pode ser um arquivo `.html` ou `.md` como nos exemplos abaixo:
+Para criar conteudo basta rodar o comando `hugo new content` e o nome do arquivo que pode ser um arquivo `.html` ou `.md` como nos exemplos abaixo:
 
 ```
-hugo new pagina1.md
-hugo new pasta1/_index.md
-hugo new pasta2/documento.md
-hugo new pasta2/app.html
+hugo new content pagina1.md
+hugo new content pasta1/_index.md
+hugo new content pasta2/documento.md
+hugo new content pasta2/app.html
 ```
 
 **Obs:** As configurações iniciais da página são definidas pelos arquivos definidos em archetypes.
 
 ## 🔗 Links úteis
 
--   [Hugo](https://gohugo.io/)
--   [Relearn](https://themes.gohugo.io/themes/hugo-theme-relearn/)
--   [Hugo in 100 seconds](https://www.youtube.com/watch?v=0RKpf3rK57I)
+- [Hugo](https://gohugo.io/)
+- [Relearn](https://themes.gohugo.io/themes/hugo-theme-relearn/)
+- [Hugo in 100 seconds](https://www.youtube.com/watch?v=0RKpf3rK57I)
